@@ -254,7 +254,7 @@ curl -X PATCH \
   -H 'x-gw-ims-org-id: {IMS_ORG}' \
   -H 'x-sandbox-name: {SANDBOX_NAME}' \
   -d '[
-        { "op": "add", "path": "/tags/unifiedProfile", "value": ["enabled:true","isUpsert:true"] },
+        { "op": "add", "path": "/tags/unifiedProfile", "value": ["enabled:true","isUpsert:true"] }
       ]'
 ```
 
